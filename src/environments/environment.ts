@@ -4,5 +4,14 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  firebaseConfig: {
+    apiKey: 'AIzaSyAFH-_YE7QGZd13fUJPqYLXdeMi086Iqlk',
+    authDomain: 'ohmyfood-e160b.firebaseapp.com',
+    databaseURL: 'https://ohmyfood-e160b.firebaseio.com',
+    projectId: 'ohmyfood-e160b',
+    storageBucket: 'ohmyfood-e160b.appspot.com',
+    messagingSenderId: '1022142128108'
+  }
 };
